@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ConductorScript : MonoBehaviour
+public class Conductor : MonoBehaviour
 {
 
     public float bpm = 120;
@@ -107,6 +107,7 @@ public class ConductorScript : MonoBehaviour
     {
         BeatEvent();
         //Debug.Log("beat");
+        //Metronome
         metronome_audioSrc.Play();
     }
 }
